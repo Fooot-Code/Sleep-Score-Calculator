@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sleep Score Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Sleep Score Calculator</h1>
+    <form id="sleepForm">
+        <div class="form-row">
+            <label for="goal">Wanted Sleep Hours (Hours):</label>
+            <input type="number" id="goal" name="goal" placeholder="0">
+        </div>
+        <div class="form-row">
+            <label for="awake">Awake Time (Hours Minutes):</label>
+            <input type="string" id="awake" name="awake" placeholder="0">
+        </div>
+        <div class="form-row">
+            <label for="rem">REM Sleep (Hours Minutes):</label>
+            <input type="string" id="rem" name="rem" placeholder="0">
+        </div>
+        <div class="form-row">
+            <label for="core">Core Sleep (Hours Minutes):</label>
+            <input type="string" id="core" name="core" placeholder="0">
+        </div>
+        <div class="form-row">
+            <label for="deep">Deep Sleep (Hours Minutes):</label>
+            <input type="string" id="deep" name="deep" placeholder="0">
+        </div>
+        
+        
+        <!-- Add additional sleep categories as needed -->
+        <button onclick="calculateSleepScore()" type="button">Calculate Score</button>
+    </form>
+</body>
+</html>

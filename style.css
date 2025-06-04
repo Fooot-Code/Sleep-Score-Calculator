@@ -1,0 +1,36 @@
+body {
+        font-family: Arial, sans-serif;
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 0 20px;
+        background-color: black;
+        color-scheme: dark;
+    }
+    .form-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .form-row label {
+        color:whitesmoke;
+        flex: 1;
+        margin-right: 10px;
+        text-align: right;
+    }
+    .form-row input {
+        color: whitesmoke;
+        flex: 1;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+    button {
+        display: block;
+        color: antiquewhite;
+        margin: 20px auto 0 auto;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    h1 {
+        color: antiquewhite;
+    }
