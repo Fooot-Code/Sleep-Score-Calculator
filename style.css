@@ -24,6 +24,21 @@ body {
         padding: 8px;
         box-sizing: border-box;
     }
+    .row-pass {
+    background-color: #d4edda; /* light green */
+    color: #155724;           /* dark green text */
+    }
+
+    .row-fail {
+        background-color: #f8d7da; /* light red */
+        color: #721c24;           /* dark red text */
+    }
+
+    .row-score {
+        background-color: #d1ecf1; /* light blue */
+        color: #0c5460;           /* dark blue text */
+    }
+
     button {
         display: block;
         color: antiquewhite;
@@ -33,4 +48,15 @@ body {
     }
     h1 {
         color: antiquewhite;
+    }
+    h2 {
+        color: antiquewhite;
+        margin-top: 20px;
+    }
+    #resultContainer {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #333;
+        color: whitesmoke;
+        border-radius: 5px;
     }
